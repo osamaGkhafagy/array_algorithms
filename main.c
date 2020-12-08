@@ -22,7 +22,7 @@ void sort_array(int a[], int size)
   int temp = 0;
   for(int pass = 1; pass < size; pass++)
   {
-    for(int j = 0; j < size - 1; j++)
+    for(int j = 0; j < size - pass; j++)
     {
       if ( a[j] > a[j+1] )
       {
